@@ -1,0 +1,105 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Tapan Bhatnagar} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+1(978)-860-6695 \\
+\href{mailto:tapanb@vt.edu}{tapanb@vt.edu} \\ 
+\href{https://www.linkedin.com/in/tapan212}{LinkedIn} \\ 
+\href{https://github.com/TapanBhatnagar212}{GitHub}}  %
+
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Master of Computer Science}, Virginia Tech \hfill {August 2021 - May 2023}\\
+Relevant Coursework: Data Analytics, Software Engineering, Data Structures \& Algorithms, Network Security.
+
+{\bf Bachelor of Computer Science}, IIT Jodhpur \hfill {August 2013 - June 2017}\\
+Relevant Coursework: Databases, Computer Networks, Operating Systems, Object-Oriented Analysis and Design.
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHNICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS}
+
+
+\textbf{\textit{Languages}:} Java, Kotlin, Python, Go, JavaScript, Typescript, GraphQL, HTML, CSS
+\\
+\textbf{\textit{Cloud Technologies}:} Openstack, Kubernetes, Helm, ChartMuseum, Rancher, Docker, ONAP, HTTP\\
+\textbf{\textit{Toolchain}:} SpringBoot, Dropwizard, Gin, React, Apache Spark, Apache Kafka, Nexus, Maven, Git\\
+\textbf{\textit{Databases}:} MySQL, Cassandra, MongoDB
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EXPERIENCE}
+
+\textbf{Senior Software Engineer} | \textit{Full Stack Dev, Java, Kotlin, Typescript, GraphQL, Go, Docker} \hfill July 2018 - July 2021\\
+MakeMyTrip Ltd. \hfill \textit{Bangalore, India}
+ \begin{itemize}
+    \itemsep -3pt {} 
+     \item \textbf{Bus Backend Project:} Upgraded the Online Booking System to Kotlin with SpringBoot from Dropwizard, reducing code complexity, improving developer workflow, and increasing code coverage from 70\% to 98\%.
+     
+     \item \textbf{Scalability:} Revamped and integrated Indian government services to add 18,000 buses through REST APIs.
+     
+     \item \textbf{Docker:} Refactored monolith app into 11 microservices and migrated from AWS EC2 to serverless architecture using Docker containers on Lambda integrated with AWS ECS, reducing operational costs by 40\%.
+     
+    \item \textbf{Bus Frontend Project:} Designed and coded a back-end for front-end (BFF) from scratch, reducing build time by 90\% and API response size by 50\% using Typescript, React, GraphQL, and Protocol buffers.
+    
+    \item \textbf{RIS Backend:} Developed large-scale Train Information Service in Go, serving 5,000 requests per second with a 99th percentile response time of 100ms. 
+ \end{itemize}
+ 
+\textbf{Technology Analyst} | \textit{Big Data, Apache Spark, Apache Kafka, Java} \hfill August 2017 - May 2018\\
+Infosys Ltd. \hfill \textit{Bangalore, India}
+ \begin{itemize}
+    \itemsep -3pt {}
+    \item \textbf{Apple Master Data Management:} Created real-time Big Data induction platform using Apache Kafka Streams and Apache Spark for Apple Maps data to pre-process OracleDB data with p99 system latency of 10ms with 100 MB/s load. 
+    \item \textbf{Data Processing:} Improved the Data Induction execution time by 75\% after optimizing SQL data fetch queries.
+ \end{itemize}
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Projects and Research}
+\vspace{-1.25em}
+\item \textbf{VPN Plumber} | \textit{Network Security Research, Javascript, Nginx, DNS Nameserver}  \hfill August 2022 - December 2022\\
+{Developed novel research for a Chrome extension to detect IPv6 and DNS leaks in VPN tunnels and inform users about privacy breaches while using VPNs. Implemented an Authoritative DNS server from the ground up for the backend.} 
+
+\item \textbf{End-to-end O-RAN 5G Experimentation} | \textit{5G Research, Apache Kafka, Python} \hfill January 2022 - September 2022\\
+{Implemented O1 interface in 5G Radio Access Network using Apache Kafka for sending data from the eNodeB to Service Management Orchestration. Submitted paper in \textit{IEEE Journal on Selected Areas in Communications (JSAC)}.}
+
+\item \textbf{Spatial Database System} | \textit{Advanced Data Structures, Java, Skip Lists, PR QuadTree} \hfill August 2021 - December 2021\\
+{Constructed and coded a two-dimensional Database System (DBMS) using Skip List and PR QuadTree to support spatial queries like insert, remove, search, intersections, and region-search.}
+
+\item \textbf{External Sorting} | \textit{Advanced Algorithms, Java, Min Heaps} \hfill August 2021 - December 2021\\
+{Introduced an external sorting algorithm using replacement selection and multi-way merge using modified MinHeap and the Java ByteBuffer, dividing the file into 512-byte blocks for sorting 16-byte records.}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Leadership and Achievements} 
+\begin{itemize}
+    \item \textbf{Marketing Head of Ignus:} Managed and led a 10-member team to collect four Million Rupees in funding at IIT Jodhpur. 
+    \item \textbf{All India Rank 1:} \textit{International Mathematics Masters Olympiad (IMMO)} 2011 winner competing with 100K students. 
+    \item \textbf{All India Rank 246:} National Science Talent Search Examination (NSTSE) 2009 winner competing with 500K students.
+\end{itemize}
+
+
+\end{rSection}
+
+
+\end{document}
